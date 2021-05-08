@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "30583791173",
+    "project_id": "multi-chat-e28b7",
+    "storage_bucket": "multi-chat-e28b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30583791173:android:d8acf2a6d7ef42c0740d2c",
+        "android_client_info": {
+          "package_name": "com.example.multichat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30583791173-4dsq45okf1t82dpi8sle482le9sin117.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNn3szod6o6iW85bhzIAvVx9C4_XAlLYo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30583791173-4dsq45okf1t82dpi8sle482le9sin117.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
