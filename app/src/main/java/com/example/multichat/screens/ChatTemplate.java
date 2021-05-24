@@ -76,8 +76,8 @@ public class ChatTemplate extends AppCompatActivity {
                 ChatConversation chatConversation=new ChatConversation(globalUser.getUserName(),message.getText().toString(),new Date().toString());
                 firebaseFirestore.collection(getIntent().getStringExtra("collectionName"))
                         .document("chats").
-                        collection("chats").
-                        add(chatConversation);
+                        collection("chats").document(""+new Date().getTime()).
+                        set(chatConversation);
 
             }
         });
